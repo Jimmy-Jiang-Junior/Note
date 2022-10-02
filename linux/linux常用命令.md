@@ -25,10 +25,10 @@
    pdbedit -L
 
 2. 删除用户
-  smbpasswd -x   用户名
+    smbpasswd -x   用户名
 
 3. 添加用户
-  smbpasswd -a 用户名(必须是linux用户）
+    smbpasswd -a 用户名(必须是linux用户）
 
 4. samba服务重启 
 
@@ -37,4 +37,16 @@
 ## 5. 生成ssh key
 
 ssh-keygen -t rsa -C "577220709@qq.com"
+
+## 6. rpm包解压命令
+
+```shell
+rpm2cpio xxx.rpm | cpio -div
+```
+
+## 7. make headers_install命令的作用是什么？
+
+## 8. ls无颜色
+
+与bashrc配置有关，如果/root目录下无bashrc，将用户目录下的bashrc拷贝到root目录下
 

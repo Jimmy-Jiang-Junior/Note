@@ -1,5 +1,9 @@
 # raspberry使用问题记录
 
+https://wiki.diustou.com/cn/%E6%A0%91%E8%8E%93%E6%B4%BE%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B%EF%BC%9A%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95%E6%A0%91%E8%8E%93%E6%B4%BE
+
+树莓派链接
+
 ## 1. wifi无法配置
 
 参考：https://blog.csdn.net/qq1140920745/article/details/110826222
@@ -25,3 +29,8 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
 ```
 
+## 3. 树莓派的默认账户密码
+
+User: pi
+
+Passwd: raspberry

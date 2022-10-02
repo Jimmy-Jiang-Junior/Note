@@ -1,5 +1,11 @@
 # WSL换源
 
+https://docs.microsoft.com/zh-cn/windows/wsl/install
+
+wsl 安装指导
+
+
+
 新安装了WSL-Ubuntu默认的apt源是国外的源。国内访问速度会很慢。所以更改国内源是非常有必要的。
 
 备份源列表文件
